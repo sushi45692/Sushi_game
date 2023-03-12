@@ -58,6 +58,7 @@
   <ItemGroup>
     <Compile Include="Assets\_TerrainAutoUpgrade\color\scenes\Playermovment.cs" />
     <Compile Include="Assets\Scenes\PlayerMovment.cs" />
+    <Compile Include="Assets\Code\Camra.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Fantasy Forest Environment Free Sample\StandardNoCulling.shader" />
