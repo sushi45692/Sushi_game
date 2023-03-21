@@ -20,7 +20,7 @@ public class Camra : MonoBehaviour
         roationX += Input.GetAxis("Mouse Y") * -1 * sensitivity;
         roationY += Input.GetAxis("Mouse X") * sensitivity;
 
-        roationY = Mathf.Clamp (roationY,  -60, 60);
+        //roationY = Mathf.Clamp (roationY,  -60, 60);
         roationX = Mathf.Clamp (roationX,  -60, 60); 
 
         transform.localEulerAngles = new Vector3(roationX, roationY, 0);
